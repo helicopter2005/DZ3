@@ -72,7 +72,7 @@ export const TodoListReducer = () => {
               onClick={() => dispatch({ type: ACTIONS.DELETE_TODO, payload: { id: todo.id } })}
               style={{ marginLeft: 'auto', cursor: 'pointer', color: 'red', border: 'none', background: 'none' }}
             >
-              Delete
+              Удалить
             </button>
           </li>
         ))}
